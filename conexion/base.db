@@ -1,0 +1,10 @@
+create database pruebas;
+use pruebas;
+
+create table if not exists clientes(
+id_clientes int auto_increment primary key, 
+nombre varchar(45),
+email varchar(45)
+)engine=InnoDB default CHARSET=utf8mb4;
+
+select * from clientes where id_clientes = 9001;
