@@ -4,9 +4,9 @@ import threading
 def conectarAndConsultar(numero):
     try:
         conexion = mysql.connector.connect(
-            host='localhost',
-            user='usuario1',
-            password='user',
+            host='130.131.0.1',
+            user='user1',
+            password='user1',
             database='pruebas'
         )
 
